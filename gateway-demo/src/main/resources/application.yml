@@ -1,0 +1,11 @@
+server:
+  ##服务端口
+  port: 6666
+spring:
+  application:
+    ##服务名称
+    name: xxx-zk
+  cloud:
+    zookeeper:
+      ##注册到zookeeper地址
+      connect-string: 192.168.100.50:2181
