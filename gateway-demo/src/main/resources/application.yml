@@ -4,8 +4,8 @@ server:
 spring:
   application:
     ##服务名称
-    name: xxx-zk
+    name: app-gateway
   cloud:
     zookeeper:
       ##注册到zookeeper地址
-      connect-string: 192.168.100.50:2181
+      connect-string: 192.168.198.107:2181
